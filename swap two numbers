@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+int main(int argc, char *argv[]){
+  int a,b,temp;
+  a=atoi(argv[1]);
+  b=atoi(argv[2]);
+  temp=a;
+  a=b;
+  b=temp;
+  printf("first value is %d second value is %d\n",a,b);
+  return 0;
+}
